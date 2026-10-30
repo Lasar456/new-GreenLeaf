@@ -1,0 +1,17 @@
+name: greenleaf_mobile
+version: 1.0.0+1
+description: GreenLeaf original HTML UI embedded in an Android Flutter WebView.
+publish_to: none
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/greenleaf.html
